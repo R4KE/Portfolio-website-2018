@@ -43,6 +43,7 @@ body {
 
 p {
   font-size: 20px;
+  text-align: center;
 }
 
 h1 {
@@ -63,6 +64,12 @@ h2 {
 	right: 0;
 	left: 0;
   top: 42%;
+}
+
+h3 {
+  opacity: 1;
+  font-size: 25px;
+	text-align: center;
 }
 
 .header {
@@ -88,9 +95,14 @@ h2 {
 
 .Content {
   overflow: hidden;
-  height: 50%;
+  height: 100%;
   padding: 30px;
   margin: 130px;
+}
+
+.WhiteBackground {
+  background-color: white;
+  display: block;
 }
 
 .Menu {
