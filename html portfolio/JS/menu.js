@@ -3,5 +3,5 @@ function openMenu() {
 }
 
 function closeMenu() {
-    document.getElementById("Menu").style.width = "0";
+    document.getElementById("Menu").style.width = "0px";
 }

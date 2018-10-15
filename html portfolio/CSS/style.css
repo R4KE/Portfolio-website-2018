@@ -1,12 +1,12 @@
 * {
   overflow-x: hidden;
   overflow-y: hidden;
-  -webkit-touch-callout: none;
+  /* -webkit-touch-callout: none;
     -webkit-user-select: none;
      -khtml-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
-            user-select: none;
+            user-select: none; */
 }
 
 html *
@@ -21,13 +21,20 @@ body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-  background-color: #161616;
-	/* background: linear-gradient(-45deg, #c8d8bb, #d8cebb, #bbcdd8, #d8bfbb); */
-  background: linear-gradient(-45deg, #7ea587, #7e97a5, #7f7ea5, #a57e81);
+  /* background-color: #161616; */
+	background: linear-gradient(-45deg, #504C48, #404E4D, #494B44, #5E605D);
+  /* background: linear-gradient(-45deg, #7ea587, #7e97a5, #7f7ea5, #a57e81); */
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;*/
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
 }
 
 @media screen and (max-width: 500px) {
@@ -39,6 +46,10 @@ body {
   .header-right {
     float: none;
   }
+}
+
+a {
+    color: #fff;
 }
 
 p {
@@ -72,6 +83,10 @@ h3 {
 	text-align: center;
 }
 
+h3 span {
+  background: rgba(50,205,50, 0.3);
+}
+
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -81,16 +96,12 @@ h3 {
 }
 
 .MiddleWrapper {
-  border-radius: 10px;
-  position: absolute;
-  text-align: center;
-  top: 95%;
-  left: 50%;
-  width: 500px;
-  height: 200px;
-  margin-top: -250px; /* Half the height */
-  margin-left: -250px; /* Half the width */
-  background: rgba(0, 0, 0, 0.1);
+  width:60%;
+  height:80%;
+  margin: auto;
+  position: static;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .Content {
