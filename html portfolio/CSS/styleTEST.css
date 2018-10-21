@@ -122,40 +122,20 @@ h3 span {
 }
 
 .Menu {
-   -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    white-space: nowrap;
-    overflow: hidden;
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 10;
-    left: 0;
-    background-color: #161616;
-    opacity: 0.7;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+  overflow: hidden;
+  opacity: 0.7;
+  background-color: #161616;
 }
 
 .Menu a {
-    user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+  float: left;
+  display: block;
+  background-color: #161616;
+  opacity: 0.7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .Menu a:hover {
